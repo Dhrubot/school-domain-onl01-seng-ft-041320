@@ -18,6 +18,6 @@ class School
   end
   
   def grade(grade)
-    
+    @roster.each {|k, v| 
   end
 end
