@@ -17,4 +17,7 @@ class School
     end
   end
   
+  def grade(name, grade)
+    
+  end
 end
