@@ -22,7 +22,7 @@ class School
   end
   
   def sort 
-    new_roster
+    new_roster = {}
     @roster.map {|k, v| new_roster[k] = v.sort}
     new_roster
   end
